@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="surface.cpp" />
+    <ClCompile Include="template.cpp" />
+    <ClCompile Include="threads.cpp" />
+    <ClCompile Include="TilleFactory.cpp">
+      <Filter>Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="TrackBuilder.cpp">
+      <Filter>trackbuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="Trackpiece.cpp">
+      <Filter>trackbuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="InputListener.cpp" />
+    <ClCompile Include="QuadTree.cpp" />
+    <ClCompile Include="Bom.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="surface.h" />
+    <ClInclude Include="template.h" />
+    <ClInclude Include="threads.h" />
+    <ClInclude Include="TilleFactory.h">
+      <Filter>Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Ship.h" />
+    <ClInclude Include="TrackBuilder.h">
+      <Filter>trackbuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="Trackpiece.h">
+      <Filter>trackbuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="Bubble.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="Game_Object.h" />
+    <ClInclude Include="InputListener.h" />
+    <ClInclude Include="QuadTree.h" />
+    <ClInclude Include="Bom.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="_readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tiles">
+      <UniqueIdentifier>{2eb37bfb-874c-44b9-825f-21ce623cca98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trackbuilder">
+      <UniqueIdentifier>{e610b0d6-f33f-4054-9254-375102c3e6f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

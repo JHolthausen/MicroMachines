@@ -1,0 +1,35 @@
+Trackbuilder
+
+its not noob friendly so an litle explanation
+
+be sure ad a trackpiece to the current track, do not place it random
+the trackpiece has an green and red rectangle, 
+
+green: goes in the trackpiece
+red : means goes out of the track piece, 
+
+so the last tile has an red square for going out so you new trackpiece must connect to it with an green square
+
+when finished with the track (it reconnects to start), save it
+
+you can ignore this but then you gameplay wil be fucked up
+
+-----copy paste the startpos and test file in the assets to get a nice working track ( just in case ;)  )
+
+gameplay:
+
+up to 4 players
+al players can be human or ai
+be sure to set the controls otherwise you cant drive
+
+
+-- bombs :
+- can give you a boost and stall others
+- can activate other bombs
+
+
+
+
+----------------
+i used an quadtree for the bubbles and us circle and square collions
+
